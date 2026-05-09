@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jXmInbu_)
+
 # React JS - Lab Day 2
 
 **Goal:** Create a small To Do app with login/logout and add/delete feature using React.
@@ -11,8 +12,8 @@
 
 ## Additional Details ✅
 
-- Install `react-router` and create two routes: one for the login or home page *(/)* and one for the To Do List page *(/todos)*.
-- Use **Context API** to store the user's name *(string)* and login status *(boolean)*. Pressing the Login button will update the context and redirect the user to the To Do List page.
+- Install `react-router` and create two routes: one for the login or home page _(/)_ and one for the To Do List page _(/todos)_.
+- Use **Context API** to store the user's name _(string)_ and login status _(boolean)_. Pressing the Login button will update the context and redirect the user to the To Do List page.
 - The Logout button will clear the user's name and set the login status to `false`.
 - If the user is logged in, they will see the To Do List page. If not, they will be redirected to the Login/Home page.
 - Don't store the todos array in the context or in an external database. Just store it in the component locally using `useState`. So the array will just reset every time you log out.
